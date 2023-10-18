@@ -5,6 +5,9 @@ function decimalToBinary(num) {
   	binaryNum = binaryNum + (num%2);
 	  num = Math.floor(num/2);
   }
+	if (num === 1) {
+		binaryNum = 1 + binaryNum;
+	}
 	console.log(binaryNum);
 }
 
