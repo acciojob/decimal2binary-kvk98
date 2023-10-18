@@ -8,8 +8,10 @@ function decimalToBinary(num) {
 	if (num === 1) {
 		binaryNum = 1 + binaryNum;
 	}
+	else if(num === 0) {
+		binaryNum = 0 + binaryNum;
+	}
 	console.log(binaryNum);
 }
-let num = prompt();
 
-window.decimalToBinary = decimalToBinary(num);
+window.decimalToBinary = decimalToBinary;
