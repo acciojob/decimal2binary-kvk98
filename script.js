@@ -1,7 +1,7 @@
 function decimalToBinary(num) {
   //Write you code here
 	let binaryNum = "";
-  while (num >=1) {
+  while (num >=2) {
   	binaryNum = binaryNum + (num%2);
 	  num = Math.floor(num/2);
   }
