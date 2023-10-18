@@ -10,5 +10,6 @@ function decimalToBinary(num) {
 	}
 	console.log(binaryNum);
 }
+let num = prompt();
 
-window.decimalToBinary = decimalToBinary;
+window.decimalToBinary = decimalToBinary(num);
