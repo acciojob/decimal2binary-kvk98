@@ -1,5 +1,4 @@
 function decimalToBinary(num) {
-//   //Write you code here
 if (num === 0) {
     return "0";
   }
@@ -9,14 +8,9 @@ if (num === 0) {
   	binaryNum = binaryNum + remainder;
 	  num = Math.floor(num/2);
   }
-
-	// console.log(binaryNum);
 	return binaryNum;
 }
-
-window.decimalToBinary = decimalToBinary;
-
-
+// window.decimalToBinary = decimalToBinary;
 // function decimalToBinary(num) {
 //   if (num === 0) {
 //     return "0";
