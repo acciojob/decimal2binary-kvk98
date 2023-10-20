@@ -10,7 +10,8 @@ if (num === 0) {
 	  num = Math.floor(num/2);
   }
 
-	console.log(binaryNum);
+	// console.log(binaryNum);
+	return binaryNum;
 }
 
 window.decimalToBinary = decimalToBinary;
