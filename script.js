@@ -5,7 +5,7 @@ if (num === 0) {
 	let binaryNum = "";
   while (num >0) {
 	  let remainder = num % 2;
-  	binaryNum = binaryNum + remainder;
+  	binaryNum =  remainder + binaryNum;
 	  num = Math.floor(num/2);
   }
 	return binaryNum;
